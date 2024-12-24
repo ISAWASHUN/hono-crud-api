@@ -2,27 +2,7 @@ name = "hono-crud-api"
 main = "src/index.ts"
 compatibility_date = "2024-12-24"
 
-# compatibility_flags = [ "nodejs_compat" ]
-
-# [vars]
-# MY_VAR = "my-variable"
-
-# [[kv_namespaces]]
-# binding = "MY_KV_NAMESPACE"
-# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-
-# [[r2_buckets]]
-# binding = "MY_BUCKET"
-# bucket_name = "my-bucket"
-
-# [[d1_databases]]
-# binding = "DB"
-# database_name = "my-database"
-# database_id = ""
-
-# [ai]
-# binding = "AI"
-
-# [observability]
-# enabled = true
-# head_sampling_rate = 1
+[[d1_databases]]
+binding = "DB"
+database_name = "todo-api-db"
+database_id = "e6704fcb-0e3a-406b-bce8-60b6209588be"
